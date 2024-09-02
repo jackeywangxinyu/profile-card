@@ -5,8 +5,8 @@ interface Props {
     aboutMe: string;
     linkedin: string;
     github: string;
-    telegram: string;
-    twitterx: string;
+    telegram?: string;
+    twitterx?: string;
     cvLink: string
 }
 
@@ -43,24 +43,24 @@ import profileImage from '/src/images/profile.webp';
                     </span>
                     <i class="bi bi-github"></i>
                 </a>
-                <a href={telegram} class="hover-text" target="_blank">
+                <!-- <a href={telegram} class="hover-text" target="_blank">
                     <span class="tooltip-text" id="fade">
                         Telegram
                     </span>
                     <i class="bi bi-telegram"></i>
-                </a>
+                </a> -->
                 <a href={twitterx} class="hover-text" target="_blank">
                     <span class="tooltip-text" id="fade">
                         Twitter/X
                     </span>
                     <i class="bi bi-twitter-x"></i>
                 </a>
-                <a href={cvLink} class="hover-text" target="_blank">
+                <!-- <a href={cvLink} class="hover-text" target="_blank">
                     <span class="tooltip-text" id="fade">
                         Resume
                     </span>
                     <i class="bi bi-file-earmark-arrow-down"></i>
-                </a>
+                </a> -->
             </div>
         </div>
     </div>
